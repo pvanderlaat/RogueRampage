@@ -1,0 +1,4 @@
+[NAME=Rouge][SPEAKERSPRITE=Rouge]My magic book has been torn apart!
+[NAME=DONUT][SPEAKERSPRITE=Donut]I AM A DONUT!
+[NAME=Rouge][SPEAKERSPRITE=Rouge]I don't care!
+[NAME=DONUT][SPEAKERSPRITE=Donut]ouch :(
