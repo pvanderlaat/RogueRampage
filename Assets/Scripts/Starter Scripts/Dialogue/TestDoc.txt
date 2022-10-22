@@ -1,4 +1,4 @@
-[NAME=Rouge][SPEAKERSPRITE=Rouge]My magic book has been torn apart!
-[NAME=DONUT][SPEAKERSPRITE=Donut]I AM A DONUT!
-[NAME=Rouge][SPEAKERSPRITE=Rouge]I don't care!
-[NAME=DONUT][SPEAKERSPRITE=Donut]ouch :(
+[NAME=DONUT][SPEAKERSPRITE=Donut]Sir! A band of goblins broken in while you were gone!
+[NAME=Rogue][SPEAKERSPRITE=Rouge]I see. They tore apart my book.
+[NAME=DONUT][SPEAKERSPRITE=Donut]I'm sorry sir, your powers are gone now. I've let you down.
+[NAME=ROGUE][SPEAKERSPRITE=Rouge]I still have some of my powers. I'll use them to retrieve the stolen pages and regain my full strength.
