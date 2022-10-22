@@ -170,7 +170,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0) && !disabled)
         {
-            if (!PlayerAnimator.GetBool("isAttacking"))
+            if (!PlayerAnimator.GetBool("isAttacking") && playerAttack.weapon.weaponType == Weapon.WeaponType.Melee)
             {
                 PlayerAnimator.SetBool("isAttacking", true);
                 if (playerAttack != null)

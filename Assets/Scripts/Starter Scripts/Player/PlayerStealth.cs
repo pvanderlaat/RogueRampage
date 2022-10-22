@@ -37,7 +37,7 @@ public class PlayerStealth : MonoBehaviour
     private void OnTriggerStay2D(Collider2D collision)
     {
         // I couldn't think of a better tag name than GuardView. Feel free to change it if you come up with a better name
-        if (collision.CompareTag("GuardView") || collision.CompareTag("Enemy"))
+        if (collision.CompareTag("Enemy"))
         {
             if (!isHidden)
             {
