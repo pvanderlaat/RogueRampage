@@ -204,7 +204,8 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        Collider2D thisCollider = GetComponent<Collider2D>();
+        if (collision.IsTouching(thisCollider))
         {
             if (collision.gameObject.TryGetComponent(out Weapon weapon))
             {
