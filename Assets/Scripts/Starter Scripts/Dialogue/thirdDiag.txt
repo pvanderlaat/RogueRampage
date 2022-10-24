@@ -1,0 +1,1 @@
+[NAME=Goblin][SPEAKERSPRITE=Goblin]Oh no, it's the wizard! We need to kill him before he regains the lost pages!

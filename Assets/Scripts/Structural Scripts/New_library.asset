@@ -17,3 +17,5 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: f60b55aa0abb06c468fd8d1bb8681f83, type: 3}
   - name: Donut
     sprite: {fileID: 21300000, guid: 96bbb3216fdc5b94b98a77a623e04743, type: 3}
+  - name: Goblin
+    sprite: {fileID: -615748350, guid: c9dcf75885e73d9498a912801754263e, type: 3}

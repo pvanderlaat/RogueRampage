@@ -10,7 +10,7 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 4
     m_ConditionEvent: distance
-    m_EventTreshold: 6
+    m_EventTreshold: 5
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -7331911058523378411}
   m_Solo: 0
@@ -101,7 +101,7 @@ AnimatorStateTransition:
   m_TransitionDuration: 0.25
   m_TransitionOffset: 0
   m_ExitTime: 0.625
-  m_HasExitTime: 1
+  m_HasExitTime: 0
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
@@ -115,14 +115,14 @@ AnimatorController:
   m_Name: goblin_patrolling
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: distance
-    m_Type: 3
+  - m_Name: playerDetected
+    m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: playerDetected
-    m_Type: 4
+  - m_Name: distance
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -154,7 +154,7 @@ AnimatorStateMachine:
     m_Position: {x: 492.24133, y: 192.45691, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -7331911058523378411}
-    m_Position: {x: 506.9828, y: 307.30606, z: 0}
+    m_Position: {x: 500, y: 380, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
