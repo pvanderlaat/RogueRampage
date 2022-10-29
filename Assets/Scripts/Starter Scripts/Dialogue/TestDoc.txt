@@ -1,5 +1,0 @@
-[NAME=Rogue][SPEAKERSPRITE=Rouge]What happened to my magic book?!?! Speak goblin!
-[NAME=Dying goblin][SPEAKERSPRITE=Goblin]**Cough**Cough** hehehe **Cough**
-[NAME=Dying goblin][SPEAKERSPRITE=Goblin]Your powers have forced us to hide down in the dungeons for too long **Cough**
-[NAME=Dying goblin][SPEAKERSPRITE=Goblin]**cough**We stole the pages of your book**Cough** Hehehe. You'll never get your powers back.
-[NAME=Rogue][SPEAKERSPRITE=Rouge]We shall see.

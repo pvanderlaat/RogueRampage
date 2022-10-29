@@ -1,1 +1,0 @@
-[NAME=Rogue][SPEAKERSPRITE=Rouge]What is this? A page from my book?

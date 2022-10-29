@@ -8,6 +8,7 @@ TagManager:
   - Weapon
   - Projectile
   - Enemy
+  - Platform
   layers:
   - Default
   - TransparentFX

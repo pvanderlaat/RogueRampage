@@ -1,0 +1,2 @@
+[NAME=Wizard][SPEAKERSPRITE=Wizard]I have granted you the ability of flight. Use it now to reach the missing page up ahead!
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Press the spacebar to jump, limitlessly.                         BEWARE THE SPIKY CIELINGS

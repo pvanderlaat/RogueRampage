@@ -1,0 +1,1 @@
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Great!                               Now step into the fire portal and you will be at the entrance of the goblin hideout

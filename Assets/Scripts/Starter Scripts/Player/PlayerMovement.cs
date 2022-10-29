@@ -170,9 +170,16 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0) && !disabled)
         {
-            if (!PlayerAnimator.GetBool("isAttacking") && playerAttack.weapon.weaponType == Weapon.WeaponType.Melee)
+            if (!PlayerAnimator.GetBool("isAttacking") || !PlayerAnimator.GetBool("isRangedAttacking"))
             {
-                PlayerAnimator.SetBool("isAttacking", true);
+                if (playerAttack.weapon.weaponType == Weapon.WeaponType.Melee)
+                {
+                    PlayerAnimator.SetBool("isAttacking", true);
+                }
+                else
+                {
+                    PlayerAnimator.SetBool("isRangedAttacking", true);
+                }
                 if (playerAttack != null)
                 {
                     playerAttack.Attack(transform.localScale);
@@ -190,6 +197,7 @@ public class PlayerMovement : MonoBehaviour
         {
 
             PlayerAnimator.SetBool("isAttacking", false);
+            PlayerAnimator.SetBool("isRangedAttacking", false);
             if (playerAttack != null)
             {
                 playerAttack.StopAttack();

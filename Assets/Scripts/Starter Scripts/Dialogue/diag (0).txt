@@ -1,0 +1,3 @@
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Great sell-sword, I need your help.    I will pay you in gold.
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Defeat the goblins who ripped apart my magic book and recover my lost pages.
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Use your sword by left clicking the mouse or trackpad.
