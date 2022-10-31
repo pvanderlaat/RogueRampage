@@ -1,4 +1,3 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Lastly I have given you the gift of . . .
-[NAME=Wizard][SPEAKERSPRITE=Wizard]LAZER EYES.
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Switched to ranged weapon by clicking 2 and then left clicking.
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Switch back to your sword by clicking 1.
+[NAME=Wizard][SPEAKERSPRITE=Wizard]I have given you one more gift
+[NAME=Wizard][SPEAKERSPRITE=Wizard]LAZER EYES
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Press 2 to switch to them and left click to fire. Click 1 to switch back to your sword.

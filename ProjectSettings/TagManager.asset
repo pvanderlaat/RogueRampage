@@ -9,6 +9,7 @@ TagManager:
   - Projectile
   - Enemy
   - Platform
+  - SceneManager
   layers:
   - Default
   - TransparentFX
