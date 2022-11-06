@@ -511,7 +511,7 @@ Transform:
   m_GameObject: {fileID: 311578202}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.28752, y: 3.1, z: -0.1459583}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.7875, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1771792030}
@@ -1432,7 +1432,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.2241864
+  orthographic size: 8
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -8883,7 +8883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 5
+  maxHealth: 2
   sprite: {fileID: 1409308239}
   killCountManager: {fileID: 0}
   killScoreValue: 1
@@ -9748,7 +9748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 5
+  maxHealth: 2
   sprite: {fileID: 1738563798}
   killCountManager: {fileID: 0}
   killScoreValue: 1
@@ -12169,6 +12169,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8312162442091248294, guid: cf8e3e691f41b17408ea0fe1d93d6bb2, type: 3}
+      propertyPath: levelIndex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8312162442091248312, guid: cf8e3e691f41b17408ea0fe1d93d6bb2, type: 3}
       propertyPath: m_RootOrder
       value: 14

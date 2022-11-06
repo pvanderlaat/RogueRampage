@@ -1,1 +1,1 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Defeat the goblins with your sword by left clicking the mouse or trackpad.
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Defeat goblins by left clicking the mouse or trackpad.

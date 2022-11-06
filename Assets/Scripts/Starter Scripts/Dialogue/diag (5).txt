@@ -1,1 +1,1 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]I have planted fire pits throughout the dungeon. Press T to use them as teleporters!
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Step into the fire pits and press T to use them as teleporters!
