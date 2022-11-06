@@ -1,1 +1,1 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Great!                               Now step into the fire portal and you will be at the entrance of the goblin hideout
+[NAME=Wizard][SPEAKERSPRITE=Wizard]The goblins stole pages from my book. Recover the lost pages for me

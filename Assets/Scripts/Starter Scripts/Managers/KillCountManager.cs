@@ -8,7 +8,7 @@ using System;
 public class KillCountManager : MonoBehaviour
 {
     public TMP_Text killCountText;
-    public int killScore = 0;
+    public static int killScore = 0;
 
     // Start is called before the first frame update
        void Update()

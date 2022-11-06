@@ -1,2 +1,1 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Wonderful, you will surely recover my stolen pages.
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Step into my fire portal and I will show you the entrance to the goblin hideout.
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Step into the fire and I will take you to the goblin hideout.

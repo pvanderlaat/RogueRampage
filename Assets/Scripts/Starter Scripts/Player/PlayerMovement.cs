@@ -70,7 +70,7 @@ public class PlayerMovement : MonoBehaviour
         //Ground Check
         canJump = Physics2D.OverlapCircle(groundCheck.position, rayLength, JumpLayer);
         cantJump = Physics2D.OverlapCircle(groundCheck.position, rayLength, NoJumpLayer);
-        Debug.Log(isJumping);
+        // Debug.Log(isJumping);
         float HorizontalMovement = 0;
         float VerticleMovement = 0;
         //float JumpMovement = 0;
