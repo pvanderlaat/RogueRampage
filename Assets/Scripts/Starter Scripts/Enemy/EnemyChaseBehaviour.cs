@@ -44,13 +44,13 @@ public class EnemyChaseBehaviour : StateMachineBehaviour
 
             if (enemyPos.transform.position.x > playerPos.position.x)
             {
-                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x) * -1, enemyPos.localScale.y);
+                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x) * -1, enemyPos.localScale.y, enemyPos.localScale.z);
                 //cont.transform.position = Vector3.MoveTowards(cont.transform.position, StartPos, speed * Time.deltaTime);
 
             }
             else
             {
-                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x), enemyPos.localScale.y);
+                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x), enemyPos.localScale.y, enemyPos.localScale.z);
             }
         }
         else if (hasStealth && playerStealth.isHidden && cont.usePlayerStealth)
@@ -67,11 +67,11 @@ public class EnemyChaseBehaviour : StateMachineBehaviour
 
             if (enemyPos.transform.position.x > playerPos.position.x)
             {
-                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x) * -1, enemyPos.localScale.y);
+                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x) * -1, enemyPos.localScale.y, enemyPos.localScale.z);
             }
             else
             {
-                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x), enemyPos.localScale.y);
+                enemyPos.localScale = new Vector3(Mathf.Abs(enemyPos.localScale.x), enemyPos.localScale.y, enemyPos.localScale.z);
             }
 
         }

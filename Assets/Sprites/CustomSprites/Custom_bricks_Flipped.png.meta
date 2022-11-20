@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 79bbcbbdac4e8124d9d727934ce646a2
+guid: 80c95cb7daaf2684f9f6669bfb409200
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
+    buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -113,164 +113,194 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idle_0
+      name: Custom_bricks_Flipped_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 16
-        width: 17
-        height: 32
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6813bdaa95e2d48458bb1baa0de7acba
-      internalID: -1788043770
+      spriteID: f63eed6955db9964898f9ec132bcd03a
+      internalID: -1349785331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_1
+      name: Custom_bricks_Flipped_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 16
-        width: 17
-        height: 32
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24b6431a349f2944180a250f5382d48e
-      internalID: -298063039
+      spriteID: d92275435f88a784598abca718bf469e
+      internalID: -1160067596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_2
+      name: Custom_bricks_Flipped_2
       rect:
         serializedVersion: 2
-        x: 152
-        y: 16
-        width: 17
-        height: 32
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e619744bbd34094fa9626738b8dee5d
-      internalID: -407528348
+      spriteID: 3f960984249bc224bb4e6c0bb7d14c47
+      internalID: -234522663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_3
+      name: Custom_bricks_Flipped_3
       rect:
         serializedVersion: 2
-        x: 216
+        x: 0
         y: 16
-        width: 17
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4962a7d4c6908c24da138453a09e244d
-      internalID: -1258377813
+      spriteID: 0417233b5bb641b47b3076e86e9de230
+      internalID: -1941604248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_4
+      name: Custom_bricks_Flipped_4
       rect:
         serializedVersion: 2
-        x: 280
+        x: 16
         y: 16
-        width: 17
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 76c80e5e9c0e5624fa249744734c6231
-      internalID: -1589804650
+      spriteID: 29320478bed14e846b5ed47d7cb06a22
+      internalID: -1691312840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_5
+      name: Custom_bricks_Flipped_5
       rect:
         serializedVersion: 2
-        x: 344
+        x: 32
         y: 16
-        width: 17
-        height: 32
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a1414041f5b6f94bb38089e2fbc7f47
-      internalID: -1523009485
+      spriteID: 3504c217212d52943a3f50cfc508826a
+      internalID: 1570715654
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idle_6
+      name: Custom_bricks_Flipped_6
       rect:
         serializedVersion: 2
-        x: 408
-        y: 16
-        width: 17
-        height: 32
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de692bf0cef28b14ba80276e8d5e5aaf
-      internalID: -1631768486
+      spriteID: e87a96e2c6c72f94c9e496e65ac4000f
+      internalID: -472632045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom_bricks_Flipped_7
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbdf761d29753814a80bd4d9046695f3
+      internalID: -1028603033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Custom_bricks_Flipped_8
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f685da9297d2204bac68b99eda40bc0
+      internalID: -1562898839
       vertices: []
       indices: 
       edges: []
@@ -286,13 +316,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      idle_4: -1589804650
-      idle_3: -1258377813
-      idle_0: -1788043770
-      idle_1: -298063039
-      idle_6: -1631768486
-      idle_2: -407528348
-      idle_5: -1523009485
+      Custom_bricks_Flipped_6: -472632045
+      Custom_bricks_Flipped_5: 1570715654
+      Custom_bricks_Flipped_7: -1028603033
+      Custom_bricks_Flipped_3: -1941604248
+      Custom_bricks_Flipped_1: -1160067596
+      Custom_bricks_Flipped_8: -1562898839
+      Custom_bricks_Flipped_4: -1691312840
+      Custom_bricks_Flipped_0: -1349785331
+      Custom_bricks_Flipped_2: -234522663
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

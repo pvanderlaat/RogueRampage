@@ -1,3 +1,2 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]I have given you one more gift
-[NAME=Wizard][SPEAKERSPRITE=Wizard]LAZER EYES
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Press 2 to switch to them and left click to fire. Click 1 to switch back to your sword.
+[NAME=Wizard][SPEAKERSPRITE=Wizard]My final gift to you is                                                          LAZER EYES
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Press 1 and 2 to toggle your weapons

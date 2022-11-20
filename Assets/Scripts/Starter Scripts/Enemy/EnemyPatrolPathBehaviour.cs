@@ -94,11 +94,11 @@ public class EnemyPatrolPathBehaviour : StateMachineBehaviour
             float temp = isEnemySpriteFacingRight ? -1 : 1;
             if (thisObject.transform.position.x > nextPos.position.x)
             {
-                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp, thisObject.transform.localScale.y);
+                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp, thisObject.transform.localScale.y, thisObject.transform.localScale.z);
             }
             else
             {
-                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp * -1, thisObject.transform.localScale.y);
+                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp * -1, thisObject.transform.localScale.y, thisObject.transform.localScale.z);
             }
         }
         else //Return only since chase will auto change behavior
@@ -108,11 +108,11 @@ public class EnemyPatrolPathBehaviour : StateMachineBehaviour
             float temp = isEnemySpriteFacingRight ? -1 : 1;
             if (thisObject.transform.position.x > nextPos.position.x)
             {
-                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp, thisObject.transform.localScale.y);
+                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp, thisObject.transform.localScale.y, thisObject.transform.localScale.z);
             }
             else
             {
-                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp * -1, thisObject.transform.localScale.y);
+                thisObject.transform.localScale = new Vector3(Mathf.Abs(thisObject.transform.localScale.x) * temp * -1, thisObject.transform.localScale.y, thisObject.transform.localScale.z);
             }
 
             if (thisObject.transform.position == lastPosition)

@@ -1,1 +1,1 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]The goblins stole pages from my book. Recover the lost pages for me
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Recover the pages that the goblins stole from me
