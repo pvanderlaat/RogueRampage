@@ -1954,7 +1954,7 @@ GameObject:
   - component: {fileID: 312755054}
   - component: {fileID: 312755053}
   - component: {fileID: 312755055}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: noCollisionPlatform(Background)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2214,7 +2214,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 312755051}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: c74a1e3b752d4b8459d30b48b9b26694, type: 2}
+  m_Material: {fileID: 6200000, guid: 41f58be9b37fe0b44ac2fd1805043f7f, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -17236,7 +17236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 420a2ca664ca3f345bc17b6d7d48034a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelIndex: 3
+  levelIndex: 4
   useGameSceneManager: 1
 --- !u!61 &1099855185
 BoxCollider2D:
