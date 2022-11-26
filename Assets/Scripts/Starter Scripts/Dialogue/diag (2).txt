@@ -1,1 +1,1 @@
-[NAME=Wizard][SPEAKERSPRITE=Wizard]Press the spacebar to jump, limitlessly.                         BEWARE THE SPIKY CIELINGS
+[NAME=Wizard][SPEAKERSPRITE=Wizard]Press the spacebar to jump, limitlessly.                         BEWARE THE SPIKY CEILINGS

@@ -8753,7 +8753,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rouge
+  m_text: 'RoGue
 
     Rampage'
   m_isRightToLeft: 0
@@ -41194,7 +41194,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Rouge
+  m_text: 'Rogue
 
     Rampage'
   m_isRightToLeft: 0

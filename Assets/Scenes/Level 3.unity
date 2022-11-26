@@ -568,7 +568,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 0
   weaponType: 1
-  damageValue: 1
+  damageValue: 3
   collider: {fileID: 26881975}
   projectile: {fileID: 9074900147159147164, guid: e1ee404cf2d13b748a2e74553783673c, type: 3}
   direction: {x: 1, y: 0}
@@ -837,7 +837,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentHealth: 0
-  maxHealth: 10
+  maxHealth: 5
   sprite: {fileID: 52414841}
   killCountManager: {fileID: 0}
   killScoreValue: 1
@@ -8855,7 +8855,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 1
   weaponType: 0
-  damageValue: 10
+  damageValue: 5
   collider: {fileID: 640354908}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
@@ -11750,7 +11750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 1
   weaponType: 0
-  damageValue: 10
+  damageValue: 5
   collider: {fileID: 1025512871}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
@@ -28217,7 +28217,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 1
   weaponType: 0
-  damageValue: 10
+  damageValue: 5
   collider: {fileID: 1523097800}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
