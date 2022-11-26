@@ -40084,6 +40084,7 @@ GameObject:
   - component: {fileID: 2084122314}
   - component: {fileID: 2084122316}
   - component: {fileID: 2084122315}
+  - component: {fileID: 2084122317}
   m_Layer: 5
   m_Name: Collectible_Text (1)
   m_TagString: Untagged
@@ -40108,7 +40109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 619, y: 385}
+  m_AnchoredPosition: {x: 958, y: 385}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2084122315
@@ -40131,14 +40132,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Code by UF Professor Seunghyuk Jang
-
-
-    Art and design by Phillip Vanderlaat
-
-
-    Parallax
-    Background by pixfinity.itch.io'
+  m_text: "Code by UF Professor Seunghyuk Jang\n\nArt and design by Phillip Vanderlaat\n\nParallax
+    Background by pixfinity.itch.io\n\nTheme Music:\nDistant by Ghostrifter Official
+    | https://soundcloud.com/ghostrifter-official\r\nCreative Commons \u2014 Attribution-NoDerivs
+    3.0 Unported \u2014 CC BY-ND 3.0\r\nMusic promoted by https://www.chosic.com/free-music/all/
+    \n\nSFX from mixkit.co"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c9c8bcb4b30bb5845b4a37091ed0e4c7, type: 2}
   m_sharedMaterial: {fileID: -7094236258763116807, guid: c9c8bcb4b30bb5845b4a37091ed0e4c7, type: 2}
@@ -40165,8 +40163,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 90
-  m_fontSizeBase: 90
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -40201,7 +40199,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -1605.5437, y: 0, z: -93.14285, w: -366.33536}
+  m_margin: {x: -1605.5437, y: 0, z: 508.7163, w: -366.33536}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -40215,6 +40213,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084122313}
   m_CullTransparentMesh: 1
+--- !u!95 &2084122317
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084122313}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2816c8f3f60f03b44b4ad6414d3c7561, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &2085514443
 GameObject:
   m_ObjectHideFlags: 0

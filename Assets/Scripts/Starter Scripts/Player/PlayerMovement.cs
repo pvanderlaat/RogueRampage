@@ -206,7 +206,6 @@ public class PlayerMovement : MonoBehaviour
 
 
         }
-
         if (isAudioEnabled && playerAudio != null)
         {
             HandleAttackAudio();
@@ -286,7 +285,7 @@ public class PlayerMovement : MonoBehaviour
 
     void HandlePlayerMovementAudio(float HorizontalMovement, float VerticleMovement)
     {
-        if (PlayerAnimator.GetBool("isMoving"))
+        if (PlayerAnimator.GetBool("isMoving") && !PlayerAnimator.GetBool("isJumping"))
         {
             if (!playerAudio.WalkSource.isPlaying && playerAudio.WalkSource.clip != null)
             {
@@ -304,11 +303,15 @@ public class PlayerMovement : MonoBehaviour
 
     void HandleAttackAudio()
     {
-        if (PlayerAnimator.GetBool("isAttacking"))
+        if (PlayerAnimator.GetBool("isAttacking") || PlayerAnimator.GetBool("isRangedAttacking"))
         {
-            if (!playerAudio.AttackSource.isPlaying && playerAudio.AttackSource.clip != null)
+            if (!playerAudio.AttackSource.isPlaying && playerAudio.AttackSource.clip != null && playerAttack.weapon.weaponType == Weapon.WeaponType.Melee)
             {
                 playerAudio.AttackSource.Play();
+            }
+            if (!playerAudio.RangedAttackSource.isPlaying && playerAudio.RangedAttackSource.clip != null && playerAttack.weapon.weaponType == Weapon.WeaponType.Ranged)
+            {
+                playerAudio.RangedAttackSource.Play();
             }
         }
         else

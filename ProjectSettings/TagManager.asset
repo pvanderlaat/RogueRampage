@@ -10,6 +10,7 @@ TagManager:
   - Enemy
   - Platform
   - SceneManager
+  - GameMusic
   layers:
   - Default
   - TransparentFX
