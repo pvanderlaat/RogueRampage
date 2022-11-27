@@ -6928,7 +6928,7 @@ Rigidbody2D:
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 6200000, guid: 41f58be9b37fe0b44ac2fd1805043f7f, type: 2}
+  m_Material: {fileID: 6200000, guid: f55c684a6fa30d24e9458474d4f3efe4, type: 2}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
@@ -32832,7 +32832,7 @@ MonoBehaviour:
   - {fileID: 2045192739}
   - {fileID: 1102483453}
   weapon: {fileID: 2045192739}
-  coolDown: 0.4
+  coolDown: 0
   player: {fileID: 1416400514}
 --- !u!114 &1416400522
 MonoBehaviour:
@@ -62002,7 +62002,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.8000976, y: 0.00000023841858}
+  m_Offset: {x: 1.3272167, y: 0.00000023841858}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -62013,7 +62013,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.6001947, y: 2.5998917}
+  m_Size: {x: 3.654433, y: 2.5998917}
   m_EdgeRadius: 0
 --- !u!114 &2045192739
 MonoBehaviour:
@@ -62029,7 +62029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 0
   weaponType: 0
-  damageValue: 1
+  damageValue: 2
   collider: {fileID: 2045192738}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
