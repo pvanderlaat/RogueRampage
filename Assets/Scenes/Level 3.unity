@@ -7387,7 +7387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   alignmnent: 0
   weaponType: 0
-  damageValue: 1
+  damageValue: 100
   collider: {fileID: 374423277}
   projectile: {fileID: 0}
   direction: {x: 1, y: 0}
