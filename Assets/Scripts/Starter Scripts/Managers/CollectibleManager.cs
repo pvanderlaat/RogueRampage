@@ -27,4 +27,8 @@ public class CollectibleManager : MonoBehaviour
         collected += value;
     }
 
+    public int GetCollected()
+    {
+        return collected;
+    }
 }

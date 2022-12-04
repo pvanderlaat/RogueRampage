@@ -11,6 +11,8 @@ TagManager:
   - Platform
   - SceneManager
   - GameMusic
+  - finalText
+  - finalTextText
   layers:
   - Default
   - TransparentFX
